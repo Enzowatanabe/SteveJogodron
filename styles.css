@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "minecraft";
+    src: url("Minecrafter.Reg.ttf") format("opentype"); 
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+  @import url('https://fonts.cdnfonts.com/css/pixies');
+
+
+
+
+body{
+    background-image: url(backgroundMinecraft.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    height: 1000px;
+    font-family: "minecraft";
+}
+
+section{
+    height: 300px;
+}
+
+.logominecraft{
+    width: 400px;
+}
+
+
+
+.logo{
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 1px;
+    font-family: 'Pixies', sans-serif;
+}
+
+h1{
+    letter-spacing: 10px;
+    background-color: #3339;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.steveimg{
+    display: flex;
+    justify-content: center;
+}
+
+.steve-section {
+  position: relative;
+  align-items: center;
+  height: max-content;
+}
+
+.carousel {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel__images {
+  overflow: hidden;
+}
+
+.carousel__images-container {
+  display: flex;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel__images-container img {
+  flex: 0 0 100%;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel__images-container img.active {
+  opacity: 1;
+}
+
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.carousel__prev:hover,
+.carousel__next:hover {
+  color: gray;
+}
+
+.carousel__prev {
+  right: 500px;
+}
+
+.carousel__next {
+  left: 500px;
+}
+
+.steve-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
