@@ -75,10 +75,11 @@ h1{
 
 .carousel__images-container img {
   flex: 0 0 100%;
-  width: 100%;
-  height: auto;
+  width: 68px;
+  height: 600px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  margin-bottom: 130px;
 }
 
 .carousel__images-container img.active {
